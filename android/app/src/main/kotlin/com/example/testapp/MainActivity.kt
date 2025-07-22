@@ -1,4 +1,4 @@
-package com.example.testapp
+package com.biosync.iniciosesion
 
 import io.flutter.embedding.android.FlutterActivity
 
