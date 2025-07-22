@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "447708857341",
+    "project_id": "biosyncfirebase",
+    "storage_bucket": "biosyncfirebase.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:447708857341:android:67655da54a58ceb3e6cf94",
+        "android_client_info": {
+          "package_name": "com.biosync.iniciosesion"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB1_CfT1ITF81WcT880NcflVyq_SEXRjxI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
