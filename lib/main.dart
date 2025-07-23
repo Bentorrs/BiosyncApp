@@ -11,20 +11,22 @@ void main() async {
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Login Biosync',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         colorScheme: ColorScheme.fromSwatch().copyWith(
           primary: const Color.fromARGB(255, 50, 164, 172),
-          secondary: const Color.fromARGB(255, 50, 164, 172)
-        )),
-      routes : {
+          secondary: const Color.fromARGB(255, 50, 164, 172),
+        ),
+      ),
+      routes: {
         '/': (context) => const AuthScreen(),
-        '/home': (context) => const HomeScreen(),
+        '/home': (context) => const MainScreen(),
       },
-      debugShowCheckedModeBanner: false,
     );
   }
 }
